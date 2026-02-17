@@ -18,6 +18,8 @@
     lang: "en",
   )
 
+  set enum(numbering: "1.i)")
+  
   show raw.where(block: true): it => block(
     fill: luma(240),
     inset: 10pt,
